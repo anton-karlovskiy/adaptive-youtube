@@ -1,5 +1,5 @@
 import React from 'react';
-import {Video} from '../../../components/Video/Video';
+import Video from '../../../components/Video/Video';
 import {VideoMetadata} from '../../../components/VideoMetadata/VideoMetadata';
 import {VideoInfoBox} from '../../../components/VideoInfoBox/VideoInfoBox';
 import {Comments} from '../../Comments/Comments';
