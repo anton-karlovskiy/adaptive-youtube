@@ -2,7 +2,7 @@
 // ray test touch <
 import React from 'react';
 
-import LiteYoutube from '../LiteYoutube/LiteYoutube';
+import LiteYoutubeEmbed from '../LiteYoutubeEmbed/LiteYoutubeEmbed';
 import './Video.scss';
 
 const BASE_EMBED_URL = 'https://www.youtube.com/embed/';
@@ -24,7 +24,7 @@ const Video = ({ id }) => {
           title='video' />
       </div>
 
-      <LiteYoutube />
+      <LiteYoutubeEmbed />
     </div>
   );
 };
