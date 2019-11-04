@@ -23,7 +23,7 @@ const Video = ({ id }) => {
           allowFullScreen
           title='video' />
       </div>
-      
+
       <LiteYoutube />
     </div>
   );
