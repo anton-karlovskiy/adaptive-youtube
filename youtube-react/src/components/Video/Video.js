@@ -2,29 +2,20 @@
 // ray test touch <
 import React from 'react';
 
-import LiteYoutubeEmbed from '../LiteYoutubeEmbed/LiteYoutubeEmbed';
+import HeavyYoutubeEmbed from './HeavyYoutubeEmbed/HeavyYoutubeEmbed';
+import LiteYoutubeEmbed from './LiteYoutubeEmbed/LiteYoutubeEmbed';
 import './Video.scss';
-
-const BASE_EMBED_URL = 'https://www.youtube.com/embed/';
 
 const Video = ({ id }) => {
   if(!id) {
     return null;
   }
-  const embedUrl = `${BASE_EMBED_URL}${id}`;
   return (
     <div className='video-container'>
       <div className='video'>
-        <iframe
-          className='video-player'
-          src={embedUrl}
-          frameBorder='0'
-          allow='autoplay; encrypted-media'
-          allowFullScreen
-          title='video' />
+        {/* <HeavyYoutubeEmbed className='video-player' id={id} /> */}
+        <LiteYoutubeEmbed className='video-player' id={id} />
       </div>
-
-      <LiteYoutubeEmbed />
     </div>
   );
 };

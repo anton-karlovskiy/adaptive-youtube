@@ -12,7 +12,7 @@ describe('Video', () => {
 
   test('renders null if id in video component not specified', () => {
     const wrapper = shallow(
-      <Video/>
+      <Video />
     );
     expect(wrapper).toMatchSnapshot();
   });
