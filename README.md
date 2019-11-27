@@ -11,13 +11,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Related projects
 
-* [React Adaptive Loading Hooks & Utilities](https://github.com/GoogleChromeLabs/react-adaptive-hooks).
-* [Adaptive Loading demos](https://github.com/GoogleChromeLabs/adaptive-loading).
+* [React Adaptive Loading Hooks & Utilities](https://github.com/GoogleChromeLabs/react-adaptive-hooks)
+* [Adaptive Loading demos](https://github.com/GoogleChromeLabs/adaptive-loading)
 
 ## Notes
 
 You can find Adaptive Loading pattern usage [here](https://glitch.com/edit/#!/anton-karlovskiy-adaptive-youtube?path=src/utils/hooks.js:17:0) in the codebase.  
-You may want to look at this [Adaptive Loading Microsite](https://adaptive-loading.web.app/);
+You may want to look at this [Adaptive Loading Microsite](https://adaptive-loading.web.app/).
 
 ## Installation
 
