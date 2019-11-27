@@ -9,10 +9,11 @@ This version of React Youtube Adaptive Loading uses network hook, memory hook, h
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You may want to have a look at [react-adaptive-hooks](https://github.com/GoogleChromeLabs/react-adaptive-hooks) package and [Adaptive Loading](https://github.com/GoogleChromeLabs/adaptive-loading) demos.
+
 ## Installation
 ```
-git clone https://github.com/GoogleChromeLabs/adaptive-loading
-cd react-youtube-adaptive-loading
+git clone https://api.glitch.com/git/anton-karlovskiy-adaptive-youtube
 npm install
 npm start
 npm run build
